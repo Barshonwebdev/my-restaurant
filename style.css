@@ -1,6 +1,6 @@
 .banner {
   background-image: url(./banner_1.png);
-  height: 100vh;
+  height: 45rem;
   background-repeat: no-repeat;
   filter: brightness(0.8);
 }
