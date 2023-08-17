@@ -3,8 +3,13 @@
 const searchMeal = () => {
   const searched = document.getElementById("search");
   const searchResult = searched.value;
-  searched.value="";
-  loadSearchedMeal(searchResult);
+  
+  if(searched.value==""){
+    return;
+  }
+  else {
+  searched.value = "";
+  loadSearchedMeal(searchResult); }
 };
 
 const loadMeal = async () => {
